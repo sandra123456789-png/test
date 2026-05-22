@@ -3,19 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <title>Sandra | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <div class="container">
-    <h1>Hello, I'm Sandra 👋</h1>
-    <p class="subtitle">Beginner Web Developer</p>
+  <!-- Header -->
+  <header>
+    <div class="logo">Sandra.dev</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <button onclick="showMessage()">Click Me</button>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hi, I'm Sandra 👋</h1>
+    <p>Beginner Web Developer | React & Frontend Learner</p>
 
+    <button onclick="showMessage()">Say Hello</button>
     <p id="message"></p>
-  </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a beginner web developer learning to build modern websites using HTML, CSS, and JavaScript.
+      I love creating clean and simple user interfaces.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React (learning)</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Sandra | Built with ❤️</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
